@@ -2,11 +2,9 @@
 
 This widget is implemented smooth stateful bottom sheet dragable with peek height and full height
 
-##Screenshoot
+## Screenshoot
 
-![Screenshot](/example/imgHeadView.png)
-
-![Screenshot](/example/imgBodyView.png)
+![Screenshot](/example/imgHeadView.png =250x)  ![Screenshot](/example/imgBodyView.png =250x)
 
 ## Getting Started
 
