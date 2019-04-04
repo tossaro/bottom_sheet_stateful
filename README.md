@@ -4,7 +4,7 @@ This widget is implemented smooth stateful bottom sheet dragable with peek heigh
 
 ## Screenshoot
 
-![Screenshot](/example/imgHeadView.png =250x)  ![Screenshot](/example/imgBodyView.png =250x)
+<img src="https://raw.githubusercontent.com/tossaro/bottom_sheet_stateful/master/example/imgHeadView.png" alt="Example Head" width="250"/> <img src="https://raw.githubusercontent.com/tossaro/bottom_sheet_stateful/master/example/imgBodyView.png" alt="Example Body" width="250"/>
 
 ## Getting Started
 
