@@ -1,6 +1,6 @@
 name: bottom_sheet_stateful
 description: This widget is implemented smooth stateful bottom sheet dragable with peek height and full height
-version: 0.0.4
+version: 0.0.5
 author: Hamzah Tossaro<hamzah.tossaro@gmail.com>
 homepage: https://github.com/tossaro/bottom_sheet_stateful
 

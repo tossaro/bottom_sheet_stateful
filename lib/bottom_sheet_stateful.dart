@@ -55,15 +55,15 @@ class _BottomSheetState extends State<BottomSheetStateful> {
             },
             child: AnimatedContainer(
               duration: Duration(milliseconds: (currentHeight!=lockHeight) ? 50 : 400),
-              height: currentHeight,
-              child: Container(
-                decoration: BoxDecoration(
-                  color: Colors.white,
-                  borderRadius: BorderRadius.only(
-                    topLeft: Radius.circular(widget.topRadius),
-                    topRight: Radius.circular(widget.topRadius),
-                  ),
+              decoration: BoxDecoration(
+                color: Colors.white,
+                borderRadius: BorderRadius.only(
+                  topLeft: Radius.circular(widget.topRadius),
+                  topRight: Radius.circular(widget.topRadius),
                 ),
+              ),
+              height: currentHeight,
+              child: SingleChildScrollView(
                 child: Stack(
                   children: <Widget>[
                     widget.head,
@@ -92,7 +92,7 @@ class _BottomSheetState extends State<BottomSheetStateful> {
     return Scaffold(
       key: _scaffoldKey,
       body: Container(
-        color: Colors.transparent
+          color: Colors.transparent
       ),
     );
   }
