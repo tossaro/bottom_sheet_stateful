@@ -1,3 +1,3 @@
-## [0.0.1] - TODO: Add release date.
+## [0.0.4] - Smothness transition head to body widget
 
-* TODO: Describe initial release.
+* Change Container widget to SingleChildScrollView to make more smoth transition head to body or reverse.
