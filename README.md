@@ -12,7 +12,7 @@ This widget is implemented smooth stateful bottom sheet dragable with peek heigh
 
 ```
 dependencies:
-    bottom_sheet_stateful: ^0.0.3
+    bottom_sheet_stateful: ^0.1.0
 ```
 
 ### 2. You can install packages from the command line:
