@@ -158,7 +158,7 @@ class IntroState extends State<IntroPage> {
     return BottomSheetStateful(
         callback: _bs1Callback,
         attribute: bs1Attr,
-        child: Container(
+        body: Container(
           width: MediaQuery.of(context).size.width,
           height: MediaQuery.of(context).size.height,
           decoration: BoxDecoration(
@@ -179,7 +179,7 @@ class IntroState extends State<IntroPage> {
                             setState(() {
                               bs1Attr = BSAttribute(
                                   headWidget: login,
-                                  show: true
+                                  showHead: true
                               );
                             });
                           },
@@ -192,7 +192,7 @@ class IntroState extends State<IntroPage> {
                         child: RaisedButton(
                           onPressed: () {
                             setState(() {
-                              bs1Attr = BSAttribute(show: false);
+                              bs1Attr = BSAttribute(showHead: false);
                             });
                           },
                           child: Text("Close Modal",style: TextStyle(fontSize: 21)),
@@ -213,7 +213,7 @@ class IntroState extends State<IntroPage> {
                               bs1Attr = BSAttribute(
                                   headWidget: login,
                                   closeOnSwipeDown: false,
-                                  show: true
+                                  showHead: true
                               );
                             });
                           },
@@ -231,7 +231,7 @@ class IntroState extends State<IntroPage> {
                                   closeOnSwipeDown: false,
                                   peekHeight: 100,
                                   maxHeight: 700,
-                                  show: true
+                                  showHead: true
                               );
                             });
                           },
@@ -253,7 +253,7 @@ class IntroState extends State<IntroPage> {
                               bs1Attr = BSAttribute(
                                   decoration: BoxDecoration(color: Colors.lightBlue),
                                   peekHeight: 100,
-                                  show: true
+                                  showHead: true
                               );
                             });
                           },
@@ -271,7 +271,7 @@ class IntroState extends State<IntroPage> {
                                   smoothness: 700,
                                   peekHeight: 250,
                                   maxHeight: MediaQuery.of(context).size.height,
-                                  show: true
+                                  showHead: true
                               );
                             });
                           },
@@ -296,7 +296,7 @@ class IntroState extends State<IntroPage> {
                                   smoothness: 700,
                                   peekHeight: 300,
                                   maxHeight: MediaQuery.of(context).size.height - 50,
-                                  show: true
+                                  showHead: true
                               );
                             });
                           },
@@ -315,7 +315,7 @@ class IntroState extends State<IntroPage> {
                                   peekHeight: 400,
                                   peekWidth: MediaQuery.of(context).size.width - 100,
                                   maxHeight: MediaQuery.of(context).size.height - 100,
-                                  show: true
+                                  showHead: true
                               );
                             });
                           },
